@@ -14,4 +14,13 @@ const student =
 	]
 };
 
-console.log( JSON.stringify(student) );
+student.ocene.push( { predmet: 'Programiranje 2', ocena: 8 } );
+
+const kljuceviObjekta = Object.getOwnPropertyNames(student);
+
+for (let kljuc of kljuceviObjekta)
+{
+	let podatak = JSON.stringify(student[kljuc]);
+
+	console.log('Naziv kljuca je ', kljuc, 'i pod tim kljucem je ', podatak);
+}
