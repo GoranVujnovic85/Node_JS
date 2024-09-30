@@ -1,14 +1,16 @@
-function prikazPoruke(poruka)
+let broj = 0;
+
+function uvecajBrojIIspisi()
 {
-    console.log('Poruka je: ' + poruka);
+    broj++;
+    console.log(broj);
 }
 
-function prikazUnapredPoznatePoruke()
-{
-    console.log('Ovo je poznata poruka');
-}
+let intervalID = setInterval(uvecajBrojIIspisi, 5000);
 
-setTimeout(prikazPoruke, 5000, 'Ovo je test mehanizma');
-setTimeout(prikazUnapredPoznatePoruke, 3000);
+setTimeout(() => 
+    {
+        clearInterval(intervalID);
+        console.log('Prekid intervala!');
 
-console.log('Kraj programa');
+    }, 25000);
