@@ -8,7 +8,6 @@ function requestHandler(request, response) {
         link: request.url
     };
 
-    // Preimenuj varijablu kako ne bi došlo do sukoba imena
     const podaciKaoString = JSON.stringify(podaciOdKlijenta);
 
     response.writeHead(200, {

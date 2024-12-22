@@ -1,7 +1,7 @@
 {
   "name": "goran.demo-app",
   "version": "1.0.0",
-  "main": "Direktorijumi i datoteke asihrone funkcije.js",
+  "main": "Osnovni_princip_rada_web_servera.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,0 +1,4 @@
+file:///C:/xampp/htdocs/Course/Goran/Primer_aplikacije/public/slideshow.html
+localhost/Course/Goran/Primert_aplikacije/public/slideshow.html
+
+localhost = C:/xampp/htdocs
